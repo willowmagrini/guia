@@ -1,0 +1,119 @@
+body{
+	margin-bottom: 0!important;
+}
+.front-page #wrapper .row, .front-page #wrapper{
+	width: 100%;
+	height: 100vh;
+	padding: 0!important;
+	margin: 0!important;
+
+}
+.front-page #header, .front-page #footer{
+    height: initial!important;
+	max-width: 1200px;
+	position: fixed;
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px auto;
+    left: 50%;
+    transform: translate(-50%);
+    color: #162F1E;
+        width: 100%;
+
+}
+.front-page #header{
+    top: 25px;
+
+}
+.front-page #footer{
+    bottom: 24px;
+
+}
+.front-page #header a,.front-page #footer a{
+	text-decoration: none;
+    color: #162F1E;
+}
+.logos{
+	max-height: 50px;
+    margin: 0px 20px;
+}
+.front-page #header #main-navigation {
+    margin: 5px 0;
+}
+.front-page #header h1{
+	margin:10px 10px;
+}
+.logos.gira{
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    width: 45px;
+}
+.logos.gira:hover{
+	-webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.front-page .navbar-nav>li>a {
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+.front-page .navbar-main-navigation{
+	    margin-top: 14px;
+}
+.front-page .navbar-toggle, .front-page .navbar-toggle .icon-bar{
+    border: solid 1px #162F1E;
+}
+
+#mais-footer{
+	font-size: 28px;
+}
+
+
+
+
+
+/*Responsivo*/
+/*Responsivo*/
+/*Responsivo*/
+/*Responsivo*/
+/*Responsivo*/
+/*Responsivo*/
+/*Responsivo*/
+@media (min-width: 700px){
+
+	.front-page .navbar-main-navigation {
+	    font-size: 16px;
+	}
+	.front-page #header h1{
+	    font-size: 20px;
+	        padding: 9px 0;
+
+
+	}
+}
+@media (min-width: 1000px){
+	.front-page #header h1{
+	    font-size: 27px;
+	        padding: 4px 0;
+
+
+	}
+	.front-page .navbar-main-navigation {
+	    font-size: 20px;
+	}
+}
+@media (min-width: 1200px){
+	.front-page #header h1{
+	    font-size: 33px;
+
+	}
+	.front-page .navbar-main-navigation {
+	    font-size: 20px;
+	}
+}
