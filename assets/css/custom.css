@@ -8,6 +8,10 @@ body{
 	margin: 0!important;
 
 }
+.wrapper{
+    padding-top: 130px!important;
+
+}
 .front-page #header, .front-page #footer{
     height: initial!important;
 	max-width: 1200px;

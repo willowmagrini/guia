@@ -6,7 +6,8 @@
  * 
  * 
  */
-
+?>
+<?php 
 get_header('front-page'); ?>
 			<?php echo do_shortcode('[wpgmza id="1"]' ); ?>
 
